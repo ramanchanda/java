@@ -65,6 +65,11 @@ public class Main {
       while (rs.next()) {
         output.add("Read from DB: " + rs.getTimestamp("tick"));
       }
+      
+      System.err.println("Message 1");
+      System.out.println("Message 2");
+      Console.log("Message 3");
+      logger.error("message 4");
 
       model.put("records", output);
       return "db";
