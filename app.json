@@ -3,3 +3,8 @@
   "description": "A barebones Java app, which can easily be deployed to Heroku.",
   "addons": [ "heroku-postgresql" ]
 }
+
+System.err.println("Message 1");
+System.out.println("Message 2");
+Console.log("Message 3");
+logger.error("message 4");
