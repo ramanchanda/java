@@ -34,8 +34,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Map;
 
-System.out.println("Hello, logs!");
-
 @Controller
 @SpringBootApplication
 public class Main {
